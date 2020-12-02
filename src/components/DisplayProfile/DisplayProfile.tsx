@@ -66,7 +66,7 @@ export const DisplayProfile = () => {
             <DropdownButton>{username} <span style={{fontSize:"20px"}}>👤</span></DropdownButton>
             <DropdownContent>
                 <DropdownA href="#">Perfil 🧐</DropdownA>
-                <DropdownA href="#" onClick={() => setLog(false); alert("Estás deslogueado")}>Logout 🚪</DropdownA>
+                <DropdownA href="#" onClick={() => setLog(false)}>Logout 🚪</DropdownA>
             </DropdownContent>
         </Dropdown>
         </div>
